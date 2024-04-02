@@ -1,0 +1,106 @@
+/*font*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select {
+  font-family: "Apple SD Gothic Neo", "Noto Sans", sans-serif;
+  letter-spacing: -0.5px;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-height: 100%;
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+  /* font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; */
+  font-size: 14px;
+  color: #333;
+  letter-spacing: -0.5px;
+  background-color: #fff !important;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+em {
+  font-style: normal;
+}
+strong {
+  font-weight: 500;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: none !important;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#__next {
+  height: 100%;
+}
+
+caption {
+  display: none;
+}
+code {
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*="language-"]):before,
+code:not([class*="language-"]):after {
+  content: "`";
+}
+code[class*="language-"] {
+  padding: 0;
+}
+
+/* 선 사이에 글자 넣기 */
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  font-size: 16px;
+  margin: 24px 0px;
+}
+.hr-sect span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 16px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.fcc code {
+  display: block;
+}
